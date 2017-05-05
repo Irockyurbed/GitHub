@@ -17,7 +17,7 @@ class CreateNotesTable extends Migration
 
             $table->mediumText('note');
 
-            $table->timestamps(); //created_At, update
+            $table->timestamps(); //created_at, update_at
         });
     }
 

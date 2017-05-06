@@ -9,6 +9,9 @@ use App\Note;
 class NotesTest extends TestCase
 {
 
+    //Lo que hara que todas las pruebas se ejecuten dentro de una transaccion
+    use DatabaseTransactions;
+
 	//Darle un nombre para definir una prueba
     public function test_notes_list()
     {

@@ -43,7 +43,7 @@ return [
     | choice installed on your machine before you begin development.
     |
     */
-
+    'connections' => [
 
         'mysql' => [
             'driver' => 'mysql',
@@ -73,6 +73,9 @@ return [
             'engine' => null,
         ],
 
+
+
+        
     ],
 
     /*
